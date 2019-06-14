@@ -1,0 +1,65 @@
+.navbar-dark .navbar-brand {
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+	#first {
+  background-image: url("../img/main2.jpg") !important;
+}
+}
+
+#first-heading {
+  padding-top: 10px;
+  font-family: 'Gugi';
+}
+
+#second-heading {
+  margin-top: 30px;
+  padding-top: 10px;
+  font-family: 'Noto Serif KR';
+}
+
+.navbar-dark .navbar-brand {
+  font-family: 'Gugi';
+}
+
+#first-bottom .container {
+  margin-bottom: 30px;
+  /*max-width: 1200px;*/
+}
+
+.col.with-borders {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+@media (min-width: 768px) {
+  #first-bottom {
+    font-size: x-large;
+  }
+}
+
+@media (min-width: 768px) {
+  #second #images-grid-left-1 {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    order: 2;
+  }
+}
+
+#second {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .row.no-gutters.images-grid {
+    font-size: 22px;
+  }
+}
+
+#login-container {
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
